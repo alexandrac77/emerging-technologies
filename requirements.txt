@@ -17,7 +17,7 @@
 
 # ipympl enables using the interactive features of matplotlib in Jupyter Notebooks
 # https://matplotlib.org/ipympl/
-# ipympl>=0.8.2
+ipympl>=0.8.2
 
 # Jupyter Widgets are interactive browser controls for Jupyter notebooks.
 # https://ipywidgets.readthedocs.io/en/stable/
@@ -28,8 +28,6 @@
 jupyterlab~=3.4.7
 
 # jupyterlab-drawio
-# jupyterlab-language-pack-fr-FR
-# jupyterlab-language-pack-zh-CN
 # jupyterlab-fasta>=3,<4
 # jupyterlab-geojson>=3,<4
 # jupyterlab-tour
@@ -42,7 +40,7 @@ jupyterlite==0.1.0b13
 # jupyterlite-xeus-wren==0.2.1
 # jupyterlite-xeus-sqlite==0.2.1
 
-# plotly>=5,<6
+plotly>=5,<6
 
 # theme-darcula
 # jupyterlab_miami_nights
