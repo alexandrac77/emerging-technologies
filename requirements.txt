@@ -14,7 +14,6 @@
 # https://ipyleaflet.readthedocs.io/en/latest/
 # ipyleaflet
 
-
 # ipympl enables using the interactive features of matplotlib in Jupyter Notebooks
 # https://matplotlib.org/ipympl/
 ipympl>=0.8.2
@@ -27,20 +26,40 @@ ipympl>=0.8.2
 # https://jupyterlab.readthedocs.io/en/stable/
 jupyterlab~=3.4.7
 
+# Jupyterlab-draw.io is an extension for the draw.io diagram editor.
 # jupyterlab-drawio
+
+# This extension allows to render Fasta data. This extension uses the MSA Fasta viewer: 
 # jupyterlab-fasta>=3,<4
+
+# This extension is for rendering GeoJSON.  
 # jupyterlab-geojson>=3,<4
-# jupyterlab-tour
 
+# This extension provides a UI tour for jupyter JupyterLab.  
+# jupyterlab-tour 
 
+# Jupyterlite CLI for jupyterlite0.1.0 beta 13
 jupyterlite==0.1.0b13
 
-# jupyterlite-p5-kernel==0.1.0a12
+# p5 kernel for jupyterlite: 
+# jupyterlite-p5-kernel==0.1.0a12 
+
+# xeus lua kernel for jupyterlite running in the browser: 
 # jupyterlite-xeus-lua==0.3.1
+
+# xeus powered wren kernel for jupyterlite running in the broswer: 
 # jupyterlite-xeus-wren==0.2.1
+
+# SQLite kernel for jupyterlite running in the browser: 
 # jupyterlite-xeus-sqlite==0.2.1
 
+# Interactive open source graphing library for Python. Supports over 40 unique chart types.
+# Enables creation of interactive web-based visualizations that can be displayed in Jupyter notebooks.
 plotly>=5,<6
 
+# Dark theme for Jupyterlite: 
 # theme-darcula
-# jupyterlab_miami_nights
+
+# A flat, 80's neon inspired theme for JupyterLab.
+# https://github.com/timkpaine/jupyterlab_miami_nights
+jupyterlab_miami_nights
